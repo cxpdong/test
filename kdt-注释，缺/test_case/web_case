@@ -1,0 +1,10 @@
+tc_login  :#登陆成功
+    s1:open chrome,http://localhost:8080/WoniuSales-20180508-V1.4-bin/
+    #在特定 id 里填内容
+    s2:input id,username,admin
+    s3:input id,password,Milor123
+    s4:input id,verifycode,0000
+    s5:click class name,form-control.btn-primary
+    s6:check link text,注销,login1
+    end
+
